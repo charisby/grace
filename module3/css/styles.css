@@ -1,23 +1,23 @@
-body{
+body {
 	font-size: 16px;	
   font-family: 'Oxygen', sans-serif;
 }
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 2px solid #000 !important;
 }
-#header-nav{
+#header-nav {
   background-color:#FFE4E1;  
   border:2px solid #000000; 
   border-radius: 0;
 }
-.navbar-brand{
+.navbar-brand {
   margin-top: 10px;
   padding-top:10px;
 }
-.navbar-nav{
+.navbar-nav {
   margin:0 -15px !important;
 }
-.navbar-brand h1{
+.navbar-brand h1 {
   color: #000000;
   font-size: 1.5em;
   font-weight: bold;
@@ -26,64 +26,64 @@ body{
   line-height: .75;
   margin-left: 15px;
 }
-.navbar-brand a:hover, .navbar-brand a:focus{
+.navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;  
 }
-#nav-list{
+#nav-list {
   border:1px solid;
 }
-#nav-list:nth-child(3){
+#nav-list:nth-child(3) {
   border-bottom:0;
 }
-#nav-list li{
+#nav-list li {
   background:#fff;
   border-bottom:2px solid;
 }
-#nav-list li:nth-child(3){
+#nav-list li:nth-child(3) {
   border-bottom:0;
 }
-#nav-list li a{
+#nav-list li a {
   color:#000000;
   font-weight: 600;
   line-height: 8px
 }
-.menu{
+.menu {
   margin:15px; 
 }
-.main-title{
+.main-title {
   font-weight: bold;
   margin-top: -3px;
 }
-.menu-content{ 
+.menu-content { 
   margin-top:40px;
 }
-.menu-title{
+.menu-title {
   font-weight: bold;
 }
-.menu-item{
+.menu-item {
   margin-bottom: 20px;
   background:#FFE4E1;  
   padding: 10px;
 }
-.menu-item h4 {
+.menu-item h3 {
   font-weight: bold;
 }
-.menu-item p{
+.menu-item p {
   font-weight:600;
-  font-size: .9em;
+  font-size: 1em;
   padding: 5px 10px;
 }
-@media (max-width:767px){
+@media (max-width:767px) {
   .navbar-brand:focus, .navbar-brand{
     margin-left:10px;
   }
-  .menu{
+  .menu {
     width: 80%;
     margin-right:auto;
     margin-left:auto;
     margin-bottom: 15px;
   }
-  .menu-item p{
+  .menu-item p {
     font-weight: 600;
     font-size: 1em;
     padding:5px 15px;
